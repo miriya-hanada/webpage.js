@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>Progate</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dosis:300,400,500,600,700">
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <!-- ヘッダー -->
+    <header>
+      <div class="container">
+        <div class="header-title">
+          <div id="top-btn" class="header-logo">にんじゃわんこの部屋</div>
+        </div>
+        <div class="header-menu">
+          <ul class="header-menu-right">
+            <li>
+              <a href="#stamps">LINEスタンプ</a>
+            </li>
+            <li>
+              <a href="#interview">インタビュー</a>
+            </li>
+            <li>
+              <a href="#contact">お問い合わせ</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <!-- トップ部分 -->
+    <div class="top-section gray-section">
+      <div class="top-inner">
+        <div class="container">
+          <div class="top-description">
+            <h2>ようこそ！にんじゃわんこの部屋へ！</h2>
+            <p>Progate公式キャラクター「にんじゃわんこ」の日常です。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- スライダー -->
+    <div id="stamps" class="stamps-section">
+      <div class="container">
+        <div class="section-title">
+          <h3>LINEスタンプ大好評発売中！</h3>
+        </div>
+        <div id="stamp-carousel" class="carousel slide" data-ride="carousel"> 
+          <ol class="carousel-indicators">
+            <li data-target="#stamp-carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#stamp-carousel" data-slide-to="1" class=""></li>
+            <li data-target="#stamp-carousel" data-slide-to="2" class=""></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="item stamp-box active">
+              <img src="https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/jquery/advanced/LineStamp1.jpg" class="stamp-image">
+              <h4>にんじゃわんこがLINEスタンプに登場！</h4>
+            </div>
+            <div class="item stamp-box">
+              <img src="https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/jquery/advanced/LineStamp2.jpg" class="stamp-image">
+              <h4>プログラミング関連のスタンプも！</h4>
+            </div>
+            <div class="item stamp-box">
+              <img src="https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/jquery/advanced/LineStamp3.jpg" class="stamp-image">
+              <h4>新キャラ・ベイビーわんこも！</h4>
+            </div>
+          </div> 
+        </div> 
+        <p>全40種類！使いやすく、可愛い！にんじゃわんこの日常を表現したスタンプです！<br>
+          ご購入は<a class="stamp-link" href="https://store.line.me/stickershop/product/1132359/ja" target="_blank"> こちら</a>（LINE STORE）から！
+        </p>
+      </div>
+    </div>
+
+    <!-- インタビュー -->
+    <div id="interview" class="interview-section">
+      <div class="interview-section-top gray-section">
+        <div class="container">
+          <div class="section-title">
+            <h3>特別インタビュー</h3>
+          </div>
+          <img class="interview-image" src="https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/jquery/advanced/interview_wanko.jpg">
+        </div>
+      </div>
+      <div class="interview-section-bottom">
+        <div class="container">
+          <div class="interview-box">
+            <h5>Q. 普段はどのような活動をされているのですか？</h5>
+            基本的に、渋谷にあるProgateのオフィスでくつろぐのが日課でござる。Progateのオフィスは本当に居心地が良いでござる。
+            スピーカーで好きな音楽を流しながら、カフェみたいな空間でProgateの宣伝方法について考えてる時間は、最高に充実しているでござる。
+          </div>
+          <div class="interview-box">
+            <h5>Q. にんじゃわんこさんは、プログラミングはできるのですか？また、得意な言語は何ですか？</h5>
+            Progateのレッスンは全て終了したから、それなりにはできるでござる。最近は本気でエンジニアを目指して、WankoBook Proを購入したでござる。<br>
+            得意な言語は、Rubyでござる。Railsで面白いWebアプリを作りたいでござる。
+          </div>
+          <div class="interview-box">
+            <h5>Q. 好きな食べものは何ですか？やっぱりドッグフードですか？</h5>
+            ラーメンが大好きでござる。オフィスの近くには美味しいラーメン屋さんが多くあって幸せでござる。<br>
+            ドッグフードはおいしくないでござる。炊きたてのご飯の方が何倍も美味しいと思うでござる。
+          </div>
+          <div class="interview-box">
+            <h5>Q. 最後に、今後の活動展開について教えてください。</h5>
+            今後はさらにProgateの宣伝に努めていくでござる。あと、僕のLINEスタンプも。スタンプの売上は拙者のお小遣いになるから、是非ともみんなに買ってほしいでござる。
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact -->
+    <div id="contact" class="contact-section gray-section">
+      <div class="contact-section-inner">
+        <div class="container">
+          <div class="section-title">
+            <h3>お問い合わせ</h3>
+          </div>
+          <div class="contact-form">
+            <h4>メッセージを送る</h4>
+            <form>
+              <div class="error-message"></div>
+              <input type="text" name="name" placeholder="お名前" class="contact-name">
+              <div class="error-message"></div>
+              <input type="text" name="email" placeholder="メールアドレス" class="contact-email">
+              <div class="error-message"></div>
+              <textarea name="message" placeholder="メッセージ内容"></textarea>
+              <button type="submit" class="btn btn-contact">送信</button>
+            </form>
+          </div>
+          <div class="contact-about">
+            <h4>About Me</h4>
+            <p>Progateで飼われている柴犬。忍者の格好をするのが趣味(可愛いさが際立つと思っている)。妖精によって深夜4時半頃に召喚され、それ以来Progateのサイトに居座るように。<br>
+              Progateでは、ユーザーの癒やしから、学習のサポートまでを担当。また、フィードバック番長も努め、ユーザーにフィードバックを返信しないと毎日22時に怒鳴ってくる。
+            </p>
+            <h4>Address</h4>
+            <p>
+              <i class="fa fa-map-marker"></i>東京都渋谷区神宮前6-19-20 第15荒井ビル9階
+            </p>
+            <p>
+              <i class="fa fa-phone"></i>Phone: 03-6455-0950
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="container">
+        <div class="follow-us">
+          <a href="https://www.facebook.com/Progate-742679992421539" class="social-icon" target='_blank'>
+            <span class="fa fa-facebook"></span>
+          </a>
+          <a href="https://twitter.com/progatejp" class="social-icon" target='_blank'>
+            <span class="fa fa-twitter"></span>
+          </a>
+        </div>
+        <div class="copyright">©2016-
+          Progate
+        </div>
+      </div>
+    </footer>
+
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
